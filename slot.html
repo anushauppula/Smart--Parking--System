@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Parking</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .slots {
+      display: grid;
+      grid-template-columns: repeat(3, 120px);
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .slot {
+      width: 120px;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-weight: bold;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .available {
+      background-color: green;
+    }
+
+    .occupied {
+      background-color: red;
+      cursor: not-allowed;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>Parking Slots</h1>
+
+  <!-- Booking -->
+  <h3>Book Your Slot</h3>
+
+  <label>Select Date:</label><br>
+  <input type="date"><br><br>
+
+  <label>Select Time:</label><br>
+  <input type="time"><br><br>
+
+  <!-- Slots -->
+  <div class="slots">
+    <div class="slot available" onclick="bookSlot(this)">Slot 1</div>
+    <div class="slot available" onclick="bookSlot(this)">Slot 2</div>
+    <div class="slot occupied">Slot 3</div>
+    <div class="slot available" onclick="bookSlot(this)">Slot 4</div>
+    <div class="slot occupied">Slot 5</div>
+    <div class="slot available" onclick="bookSlot(this)">Slot 6</div>
+  </div>
+
+</div>
+
+<script>
+function bookSlot(slot) {
+  if (slot.classList.contains("occupied")) {
+    alert("Already booked!");
+  } else {
+    slot.classList.remove("available");
+    slot.classList.add("occupied");
+    alert("Slot booked successfully!");
+  }
+}
+</script>
+
+</body>
+</html>
+<script>
+function bookSlot(slot) {
+  if (slot.classList.contains("occupied")) {
+    alert("Already booked!");
+  } else {
+    slot.classList.remove("available");
+    slot.classList.add("occupied");
+    alert("Slot booked successfully!");
+  }
+}
+</script>
