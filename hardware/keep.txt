@@ -1,6 +1,0 @@
-This folder contains hardware files for Smart Parking System.
-
-Files:
-- demo.mp4 : Working video of Arduino + Servo gate
-- setup.jpg : Photo of complete hardware setup  
-- arduino_code.ino : Source code for Arduino UNO
