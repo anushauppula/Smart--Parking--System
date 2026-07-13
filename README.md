@@ -4,8 +4,6 @@ IoT-based Smart Parking System with real-time slot management. Features responsi
 ## 🔧 Hardware Implementation
 
 ### 📸 Arduino Setup
-
-![Hardware Setup](./hardware/hardwareboard.jpeg)
 ### 🎥 Working Demo
 [▶️ Click to Watch Gate + IR Sensors](smart%20parking%20hardware%20setup.mp4)
 
