@@ -2,9 +2,9 @@
 IoT-based Smart Parking System with real-time slot management. Features responsive web app for slot booking + Arduino UNO automation with IR sensors, servo gate, and 16x2 I2C LCD display. Live status updates: Welcome | Slots Available | Not Available. Built using HTML, CSS, JavaScript, and Arduino C++.
 
 ## 🔧 Hardware Implementation
-
+![Hardware Setup](./hardware/hardwareboard.jpeg)
 ### 📸 Arduino Setup
-![Hardware Setup](smart%20parking%20system%20hardwareboard.jpeg)
+
 
 ### 🎥 Working Demo
 [▶️ Click to Watch Gate + IR Sensors](smart%20parking%20hardware%20setup.mp4)
