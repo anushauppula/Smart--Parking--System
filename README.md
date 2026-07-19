@@ -6,7 +6,11 @@ IoT-based Smart Parking System with real-time slot management. Features responsi
 ### 📸 Arduino Setup
 ### 🎥 Working Demo
 [▶️ Click to Watch Gate + IR Sensors](smart%20parking%20hardware%20setup.mp4)
-
+### ✨ Key Features
+- Real-time slot status: Green = Available, Red = Occupied
+- Date & Time based slot booking
+- Admin login with authentication
+- Responsive design for mobile + desktop
 **Components Used:**
 - Arduino UNO R3
 - IR Sensor x2 - Vehicle entry/exit detection
